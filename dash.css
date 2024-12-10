@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background: #001;
+    display: flex;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid red;
+    flex-shrink: 0;
+}
+img{
+    width: 100%;
+}
+
+    
+.profile{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.ff{
+    font-size: 20px;
+    
+}
+.menu{
+    background: #123;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 1s;
+}
+.menu:hover{
+    width: 260px;
+}
+ul{
+   list-style: none;
+   position:relative;
+   height: 95%;
+   
+
+}
+ul li a{
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    transition: .5s;
+}
+ul li a:hover , .active{
+    background-color: #ffffff55;
+}
+.log{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log a{
+    background-color: red;
+}
+ul li i{
+    color: #faf8f8;
+    font-size: 25px;
+    padding: 5px ;
+
+}
+
+.content{
+
+    width: 100%;
+    margin: 20px;
+}
+.titel-info{
+
+    background-color: red;
+   
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.data-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    background-color: #123;
+    height: 300px;
+    flex-basis: 15px;
+    flex-grow: 1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.box:hover{
+    background-color: #ffffff55;
+
+}
+.box i{
+    font-size: 40px;
+}
+.box .data{
+    text-align: center;
+}
+.data-info .box .data span{
+    font-size: 30px;
+}
+table{
+    
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+    height: 500px;
+}
+td , th {
+    background-color: #ffffff55;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+th{
+    font-size: 30px;
+    background-color: red;
+}
+.price, .count{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 30px;
+  
+}
+.price{
+    background-color: yellow;
+    color:#123;
+}
+.count{
+    background-color: gold;
+    color: #123;
+}
